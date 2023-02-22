@@ -18,8 +18,6 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  const skip = req.query.skip;
-  const limit = 6
-  
+
   res.status(200).json({ ProjectData })
 }

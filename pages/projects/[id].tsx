@@ -9,16 +9,18 @@ import axios from "axios";
 const Project = () => {
   const router = useRouter();
   const ProjectId = router?.query?.id;
-  const [ProjectData, setProjectData] =
-    useState([{
-        id: "",
-        src: "",
-        link: "",
-        github: "",
+  const [ProjectData, setProjectData] = useState([
+    {
+      id: "",
+      src: "",
+      link: "",
+      github: "",
       name: "",
       desc: "",
-    techSkill:  [""]
-      }]);
+      techSkill: [""],
+      isFullLink:false,
+    },
+  ]);
   const getProjects = async () => {
     const res = await axios.get("/api/projects");
     const data = res.data.ProjectData;
