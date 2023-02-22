@@ -10,6 +10,6 @@ export const skillsData = [
   { src: "/mui.png", title: "material ui" },
   { src: "/sass.svg", title: "sass" },
   { src: "/gulp.png", title: "gulp" },
-  { src: "/git-icon-1788c.png", title: "git" },
+  { src: "/Git-Icon.png", title: "git" },
 ];
 
