@@ -52,7 +52,7 @@ const SocialLinks = () => {
         </Box>
       </Link>
       <Link
-        href="https://drive.google.com/file/d/12pXpq4KpDUl_HXCXXN_uO3kUm1eV3Lem/view?usp=sharing "
+        href="https://drive.google.com/file/d/1Lh2ksPFINZFyI2xd-hXyKrS4N1seHuFh/view?usp=sharing"
         target="_blank"
       >
         {/* <LinkedInIcon sx={{ color: "#0a66c2", background: "#fff" }} /> */}

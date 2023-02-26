@@ -46,7 +46,11 @@ const HomePage = () => {
             marginTop: "25px",
           },
         }}
-        onClick={() => saveAs("/src/Walaa CV.pdf", "Walaa CV.pdf")}
+        onClick={() =>
+          saveAs(
+            "https://drive.google.com/file/d/1Lh2ksPFINZFyI2xd-hXyKrS4N1seHuFh/view?usp=sharing"
+          )
+        }
       >
         <DownloadSharpIcon sx={{ marginRight: "7px" }} />
         Resume

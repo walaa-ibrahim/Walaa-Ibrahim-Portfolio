@@ -18,6 +18,7 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-
+const query = req.query;
+const { page, limit } = query;
   res.status(200).json({ ProjectData })
 }

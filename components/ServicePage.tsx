@@ -15,7 +15,6 @@ import axios from "axios";
 const ServicePage = () => {
   const [skills, setSkills] = useState([{ src: "", title: "" }]);
   const [experiences, setExperiences] = useState([]);
-  console.log("experiences", experiences);
   const getSkills = async () => {
     const res = await axios.get("/api/skills");
     const data = res.data.skillsData;
@@ -42,7 +41,7 @@ const ServicePage = () => {
           },
         }}
       >
-        <FirstLetter>S</FirstLetter>kills &&nbsp;<FirstLetter>E</FirstLetter>
+        <FirstLetter>S</FirstLetter>kills &nbsp;<FirstLetter>E</FirstLetter>
         xperiences
       </MainText>
 
@@ -99,9 +98,9 @@ const ServicePage = () => {
               {experience.experDes === "work"
                 ? "at"
                 : experience.experDes === "freelane"
-                ? "as"
+                ? "as Freelancer"
                 : "in"}
-              &&nbsp;
+              &nbsp;
               {experience.hasLink && (
                 <Link href={experience.link}>{experience.linkName}</Link>
               )}

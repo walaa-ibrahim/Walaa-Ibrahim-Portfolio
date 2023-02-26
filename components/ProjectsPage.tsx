@@ -118,10 +118,6 @@ const [totalPages,setTotalPages]=useState(0)
                   <ProjectLinks
                     href={project.link}
                     target="_blank"
-                    sx={{
-                      pointerEvents: !project.isFullLink && "none",
-                      opacity: !project.isFullLink && 0.4,
-                    }}
                   >
                     <LinkIcon sx={{ transform: " rotate(137deg)" }} />
                   </ProjectLinks>

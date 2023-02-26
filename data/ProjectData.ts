@@ -3,7 +3,7 @@ export const ProjectData = [
   {
     id: `1-ElevenStats`,
     src: "/eleven.png",
-    link: "#",
+    link: "https://elevenstats.com/",
     github: "#",
     name: "ElevenStats",
     desc: "Elevenstats Is dedicated to providing the world's most in-depth analysis of football/ soccer matches.",
